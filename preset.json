@@ -1,0 +1,45 @@
+{
+  "useConfigFiles": true,
+  "cssPreprocessors": {
+    "sass": {},
+    "less": {}
+  },
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-router": {},
+    "@vue/cli-plugin-vuex": {}
+  },
+  "vueVersion": "2",
+  "router": true,
+  "vuex": true,
+  "promptsCallback": null,
+  "prompts": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "message": "專案名稱"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "message": "專案描述",
+      "default": "Vue 後台管理系統"
+    },
+    "author": {
+      "type": "string",
+      "message": "作者名稱"
+    },
+    "apiBaseUrl": {
+      "type": "string",
+      "required": true,
+      "message": "API 基礎 URL",
+      "default": "https://studio-test.m4ore.com"
+    },
+    "appName": {
+      "type": "string",
+      "required": true,
+      "message": "應用程式名稱",
+      "default": "後台管理系統"
+    }
+  }
+}
